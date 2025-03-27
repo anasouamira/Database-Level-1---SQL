@@ -16,7 +16,7 @@ The datatype parameter specifies the type of data the column can hold (e.g. varc
 Note: We must provide data types for each column while creating a table.
 */
 
-CREATE TABLE Employees (
+CREATE TABLE Employees(
     ID int NOT NULL,
     Name nvarchar(50) NOT NULL,
 	Phone nvarchar(10) NULL,
