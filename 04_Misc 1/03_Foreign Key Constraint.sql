@@ -9,6 +9,7 @@ CREATE TABLE Customers (
 );
 
 
+
 -- Adding foreign key to the customer_id field
 -- The foreign key references to the id field of the Customers table
 CREATE TABLE Orders (
